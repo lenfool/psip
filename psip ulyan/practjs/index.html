@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+         function buttontime() {
+             var now=new Date();
+             var hour=now.getHours();
+             var sec=now.getSeconds();  
+             var hh=sec+':'+hour;
+             alert(hh);
+            }
+    </script>
+</head>
+<body>
+    <div class="zad1">
+    <p>Задание 1</p>
+    <button  id="vremya" onclick="buttontime();">Показать год</button>
+</div>
+<div class="zad2">
+   <p>Задание 2</p>
+ <script>
+
+     
+        txt='Мелль Олег ';
+        var i=0;
+        while(i<12)
+        {
+            document.write(txt);
+            i++;
+        }
+   
+ </script>
+
+</div>
+
+<div class="zad2">
+    <p>Задание 3</p>
+  
+    <script type="text/javascript">
+
+        var anyNumber = [4, 5, 8,6,7,9,2];
+        
+         /* Счетчик */
+        var kol=0;
+        /* В цикле перебираем все элементы массива и выводим на экран индексы и соответствующие им значения */
+        for(var i = 0; i < anyNumber.length;  i++)
+        {
+        if (anyNumber[i]%4==0){
+            kol++;
+            
+        }
+        }
+        document.write(kol);
+        document.write(anyNumber);        
+        </script>
+</div>
+
+<p>Задание 4</p>
+
+<script src="js/script.js"></script>
+<p>Задание 5</p>
+<script type="text/javascript">
+    var s1="Я люблю Беларусь";
+    var s2="Я учуcь в политихническом колледже";
+    document.write("Длина строки: "+s2.length+"</br>");
+    document.write(s2[12] )
+    document.write(" ASCII-код: "+ s2.charCodeAt(12)+"</br>")
+    var re = /о/gi;
+var newstr = s2.replace(re, 'а');
+document.write(newstr); // апельсины круглые и апельсины сочные.
+</script>
+</body>
+</html>

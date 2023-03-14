@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Untitled-1.css">
+    <script src="./Untitled-1.js"></script>
+</head>
+<body>
+    <p class="Frick"  id ='1' >Mell Oleg Alexandrovich</p>
+    <a href="http://ggpk.by/Raspisanie/raspisanie.php"></a>
+    <img id="2" src= "./Новая папка/skins.png" alt="">
+
+    <script>
+        function Time(){
+            document.body.style.backgroundColor = 'gray'
+            document.body.style.fontFamily = 'Verdana'
+            document.body.style.fontSize = '20px'
+            document.body.style.color = 'red'
+            document.body.style.fontWeight = '400'
+            document.getElementById('1').style.border = '1px solid green'
+        }
+    </script>
+
+    <input type="button" value="Стили" onclick="Time()">
+
+    <script> let element = document.getElementById('2');
+    let clone = element.cloneNode(false)
+    document.body.prepend(clone)
+    </script>
+
+<script>
+    function onload(){
+        alert('Цвет белый')
+    }
+    setTimeout(onload, 7000)
+</script>
+    
+</body>
+</html>

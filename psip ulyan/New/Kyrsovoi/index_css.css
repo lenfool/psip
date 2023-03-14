@@ -1,0 +1,169 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+html , body
+{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.container_header
+{
+    max-width: 1237px;
+    max-height: 101px;
+    margin:0 auto;
+    border: 2px solid black;
+}
+.header_l
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 24px;
+    color: #556686;
+}
+.header_text
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.button
+{
+  display: inline-block;
+  background: #2196f3;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  cursor: pointer;
+  text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    
+}
+.header_telephone
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+.header_link
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5284F7;
+
+    border-bottom: 1px dotted #5284F7;
+}
+.header_button
+{
+    display: flex;
+}
+
+.header_logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header_info
+{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.header_inner
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Main container */
+.container{  
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
+
+/* CONTAINER_BODY_1 */
+/* START */
+
+.container_body_1
+{
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1232px;
+    margin: 0 auto;
+}
+.text_body1_1
+{
+    padding-top: 170px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    max-width: 634px;
+    color: #213252;
+}
+.text_body2_1
+{
+    padding-top: 41px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #213252;
+}
+.body_button1_1
+{
+    display: flex;
+    padding-top: 73px;
+}
+/* .photo1
+{
+    display: flex;
+    padding-left: 300px ;
+} */
+.inner_body1
+{
+    
+}

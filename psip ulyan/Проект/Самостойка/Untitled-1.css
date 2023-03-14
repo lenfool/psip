@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 12px;
+}
+body
+{
+    background: url('Исповедь немецкого дальнобойщика бараки Обамы перед великим французским бизнесмном и самураем Владимиром Владимировичем Ким Чен Инна поехала срать позавчера в Вертилишки.png');
+}
+.text3
+{
+    text-align: right;
+}
+.text1
+{
+    text-align: right;
+}
+.text4
+{
+    text-align: center;
+}
+.text2
+{
+    color:aqua;
+}
+.photo
+{
+    display: flex;
+    justify-content: center;
+}
+table
+{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+td
+{
+    border: 2px solid black;
+}
+th
+{
+    border: 2px solid black;
+}
+.ya
+{
+    background-color: blue;
+}
+.ti
+{
+    background-color: gray;
+}
+.mi
+{
+    background-color: white;
+}
+.textform
+{
+    text-align: center;
+}
+.divforma
+{
+    text-align: center;
+    width: 200px;
+    border: 1px solid black;
+}

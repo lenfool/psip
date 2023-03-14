@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form_test" action="#" method="#" id="form">
+        <div>
+          <label>
+            Имя:
+            <input type="text" pattern="^[a-zA-Z]+$" name="name" maxlength="15" value="" required>
+          </label>
+        </div>
+        <div>
+          <label>
+            Фамилия:
+            <input type="text" pattern="^[a-zA-Z]+$" name="lastName" maxlength="20" value="" required>
+          </label>
+        </div>
+        <p><input name="sex" type="radio" id="man" value="man"> Мужчина</p>
+        <p><input name="sex" type="radio" id="woman" value="woman"> Женщина</p>
+
+        <div id="printBlock"></div>
+        <div>
+          <button class="button_form" type="submit">Отправить</button>
+          </div>
+      </form>
+      <script src="./script.js"></script>
+</body>
+</html>

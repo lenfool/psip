@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <p>Новикевич Влада Сергеевна</p>
+    <img src="slide1.jpg" alt="img" id="1">
+
+    <script>
+        function onload(){
+            alert('Страница загружена')
+        }
+        setTimeout(onload, 5000)
+    </script>
+
+    <script>
+        let p = document.createTextNode('Город проживания: Гродно')
+        document.body.after(p)
+    </script>
+
+    <script>
+        if (navigator.cookieEnabled === true){
+            alert('Cookies включены')
+        }
+
+        if (navigator.cookieEnabled === false){
+            alert('Cookies отключены')
+        }
+    </script>
+
+    <script>
+        function Time(){
+            document.body.style.backgroundColor = 'yellow'
+            document.body.style.fontFamily = 'Verdana'
+            document.body.style.fontSize = '14px'
+            document.body.style.color = 'green'
+            document.getElementById('1').style.border = '1px solid red'
+        }
+    </script>
+
+    <input type="button" value="Стили" onclick="Time()">
+</body>

@@ -1,0 +1,25 @@
+.container
+{
+    max-width: 1244px;
+    margin: 0 auto;
+}
+.header
+{
+    max-width: 1232px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.menu_link
+{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 22px;
+}
+.menu_list
+{
+    height: 99px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

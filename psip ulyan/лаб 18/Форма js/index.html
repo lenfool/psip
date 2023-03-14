@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form_test" action="#" method="#" id="form" onsubmit="javascript:return validate2('form_test','lastName');">
+        <div>
+          <label>
+            Имя:
+            <input type="text" pattern="^[a-zA-Z]+$" name="name" maxlength="15" value="" required>
+          </label>
+        </div>
+        <div>
+          <label>
+            Фамилия:
+            <input type="text" pattern="^[a-zA-Z]+$" name="lastName" maxlength="15" value="" required>
+          </label>
+        </div>
+       
+        
+        
+        <div>
+          <p><input name="sex" type="radio" id="man" value="man"> Мужчина</p>
+          <p><input name="sex" type="radio" id="woman" value="woman"> Женщина</p>
+  </div>
+  <div id="printBlock"></div>
+        <div>
+          <button class="button_form" type="submit">Отправить</button>
+          </div>
+      </form>
+      <script>
+        function validate2(form_test,lastName) {
+    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    var address = document.forms[form_test].elements[lastName].value;
+    if(reg.test(address) == false) {
+       alert('Введите корректную фамилию');
+       return false;
+    }
+ 
+ }
+      </script>
+ <script src="script.js"></script>
+</body>
+</html>

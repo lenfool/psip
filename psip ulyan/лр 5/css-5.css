@@ -1,0 +1,18 @@
+.block_row{
+    border: 10px solid firebrick;
+    display: flex;
+}
+.block_elem{
+    
+    padding: 50px;
+    background-color: rgb(86, 255, 218);
+}
+.block{
+    margin-bottom: 50px;
+}
+
+.block_row1{
+    border: 10px solid firebrick;
+    display: flex;
+    justify-content: space-between;
+}
